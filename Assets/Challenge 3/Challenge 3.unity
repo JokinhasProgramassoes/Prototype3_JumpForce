@@ -701,7 +701,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bf1b15f61b704c8e8e279e263bb77b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 15
 --- !u!114 &835818923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -897,8 +897,16 @@ PrefabInstance:
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 7167077290832442939, guid: 0ae5bab20a4814ac0840dcc8c32cd9b2, type: 3}
+      propertyPath: maxHeigh
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 7167077290832442939, guid: 0ae5bab20a4814ac0840dcc8c32cd9b2, type: 3}
       propertyPath: floatForce
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7167077290832442939, guid: 0ae5bab20a4814ac0840dcc8c32cd9b2, type: 3}
+      propertyPath: isLowEnough
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
